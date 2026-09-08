@@ -20,7 +20,8 @@ export class PostService {
   --------------------------------------------*/
   httpOptions = {
     headers: new HttpHeaders({
-      'Content-Type': 'application/json'
+      'Content-Type': 'application/json',
+      'x-api-key': '7faa2cc0-fbf7-447d-a37f-e9fdf009c970'
     })
   }
    
